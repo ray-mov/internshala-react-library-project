@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-glass {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.3px);
+  -webkit-backdrop-filter: blur(8.3px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.cat-glass {
+  /* From https://css.glass */
+  background: rgba(232, 232, 50, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+  border: 1px solid rgba(232, 232, 50, 0.6);
+}
+
+.addNew-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin: 0px auto;
+}
+
+.addNew-form > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addNew-form > div > label {
+  font-size: x-large;
+  font-weight: 500;
+}
+.addNew-form > div > input {
+  font-size: large;
+  font-weight: 500;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  padding-left: 1rem;
+}
+.addNew-form > div > h1 {
+  font-size: x-large;
+  font-weight: 500;
+}
